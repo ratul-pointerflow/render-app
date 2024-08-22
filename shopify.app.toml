@@ -16,7 +16,11 @@ include_config_on_deploy = true
 scopes = ""
 
 [auth]
-redirect_urls = [ "https://shopify.dev/apps/default-app-home/api/auth" ]
+redirect_urls = [
+    "https://render-app-g5jk.com/auth/callback",
+    "https://render-app-g5jk.com/auth/shopify/callback",
+    "https://render-app-g5jk.com/api/auth/callback"
+]
 
 [webhooks]
 api_version = "2024-07"
