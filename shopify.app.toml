@@ -3,7 +3,7 @@
 client_id = "2666421318341022ee0dea47bebd83ca"
 name = "render-app"
 handle = "render-app-1"
-application_url = "https://shopify.dev/apps/default-app-home"
+application_url = "https://render-app-g5jk.onrender.com"
 embedded = true
 
 [build]
